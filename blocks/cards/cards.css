@@ -29,7 +29,6 @@
 
 
 .cards.cards34 {
-  /* Extra padding for block breathing room */
   padding: 2.5rem 0;
   background: var(--background-color);
 }
@@ -96,7 +95,6 @@
   margin-bottom: 0.2em;
 }
 
-/* Meta info: badge and min read side by side */
 .cards.cards34 .cards-card-body p:first-child {
   display: inline-block;
   background: #e6e6e6;
@@ -120,7 +118,6 @@
   line-height: 1.1;
 }
 
-/* Title: uppercase, bold, left aligned */
 .cards.cards34 .cards-card-body h3 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -131,7 +128,6 @@
   letter-spacing: 0.01em;
 }
 
-/* Description below title, muted color */
 .cards.cards34 .cards-card-body h3 + p:not(.button-container) {
   color: #555;
   font-size: 1.07rem;
@@ -140,7 +136,6 @@
   line-height: 1.5;
 }
 
-/* "Read" link: understated, left aligned, spaced from description */
 .cards.cards34 .cards-card-body .button-container {
   margin: 0;
   padding: 0;
@@ -168,7 +163,6 @@
   text-decoration: none;
 }
 
-/* Responsive: stack cards vertically, image above text */
 @media (width <= 800px) {
   .cards.cards34 ul {
     grid-template-columns: 1fr;
@@ -196,9 +190,61 @@
   }
 }
 
-/* Prevent overflow */
 .cards.cards34 ul li,
 .cards.cards34 .cards-card-image,
 .cards.cards34 .cards-card-body {
   box-sizing: border-box;
+}
+
+
+.cards.cards19 {
+  max-width: 1040px;  /* Or as appropriate for your layout */
+  margin: 0 auto;
+  padding-left: 16px;  /* Optional, for breathing room */
+  padding-right: 16px;
+}
+
+.cards.cards19 ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px 40px;   /* Reduce horizontal gap (was too large) */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards.cards19 li {
+  display: flex;
+  align-items: center;  /* Ensures icon and text are vertically centered */
+  background: #fff;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  min-height: 48px;
+  margin: 0;
+}
+
+.cards.cards19 .cards-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  margin-right: 8px;  /* Tighter, brings text closer to icon */
+}
+
+.cards.cards19 .cards-card-body {
+  flex: 1;
+
+  /* Optional: constrain text width for better wrapping */
+  max-width: 220px;
+}
+
+.cards.cards19 .cards-card-body p {
+  margin: 0;
+  color: #222;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
 }
