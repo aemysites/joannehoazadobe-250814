@@ -178,13 +178,29 @@
           "url": "https://www.wknd-trendsetters.site/blog/fashion-blog-post",
           "urlHash": "9b4d89f80efba6f8dbcb1e3da8ea8ffa8771a959",
           "uuid": "9b4d89f8-04-28a9b8a4613e4ebb7b85814fd3998dfa3ff3ea64",
-          "xpath": "/html[1]/body[1]/section[3]/div[1]/div[1]/div[1]"
+          "xpath": "/html[1]/body[1]/section[3]/div[1]/div[1]/div[1]",
+          "differences": [
+            {
+              "element_id": "html__body__section_3__div__div__div",
+              "differences": [],
+              "dissimilarity_score": 1.0
+            }
+          ],
+          "similarity_score": 0.0
         },
         {
           "url": "https://www.wknd-trendsetters.site/blog/fashion-blog-post",
           "urlHash": "9b4d89f80efba6f8dbcb1e3da8ea8ffa8771a959",
           "uuid": "9b4d89f8-05-763479c3261fc43016e8eafc05c8ea8587e61655",
-          "xpath": "/html[1]/body[1]/section[3]/div[1]/div[1]/div[2]"
+          "xpath": "/html[1]/body[1]/section[3]/div[1]/div[1]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__section_3__div__div__div_2",
+              "differences": [],
+              "dissimilarity_score": 1.0
+            }
+          ],
+          "similarity_score": 0.0
         },
         {
           "url": "https://www.wknd-trendsetters.site/latest-trends-young-fashion",
@@ -257,7 +273,20 @@
           "url": "https://www.wknd-trendsetters.site/",
           "urlHash": "1b9ba84f36ee3a519917302a79dfd970725bae31",
           "uuid": "1b9ba84f-11-2543d43dac63c32e3ccae4aae2045cbf1572ea04",
-          "xpath": "/html[1]/body[1]/section[5]"
+          "xpath": "/html[1]/body[1]/section[5]",
+          "differences": [
+            {
+              "element_id": "html__body__section_5",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Join the style revolution Get trend alerts, style inspo, and exclusive tips. Fresh looks, fun vibes\u2014straight to your inbox. Don\u2019t miss out! Sign up Connect"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
         }
       ]
     },
@@ -278,7 +307,32 @@
           "url": "https://www.wknd-trendsetters.site/blog/fashion-blog-post",
           "urlHash": "9b4d89f80efba6f8dbcb1e3da8ea8ffa8771a959",
           "uuid": "9b4d89f8-02-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
+          "xpath": "/html[1]/body[1]/section[1]",
+          "differences": [
+            {
+              "element_id": "html__body__section",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Fresh fits, bold moves, all you Step into the scene\u2014where street style meets sport, and every day is a runway. From tennis courts to late-night parties, we spotlight the coolest trends and the stories behind them. Get inspired, get noticed, and make every outfit an adventure. Read "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "more See"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "moreSee"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " trends"
+                }
+              ],
+              "dissimilarity_score": 0.04
+            }
+          ],
+          "similarity_score": 0.96
         }
       ]
     },
@@ -331,7 +385,20 @@
           "url": "https://www.wknd-trendsetters.site/blog/fashion-blog-post",
           "urlHash": "9b4d89f80efba6f8dbcb1e3da8ea8ffa8771a959",
           "uuid": "9b4d89f8-06-bcf58b63085bee4597101c756c702eb86af612c8",
-          "xpath": "/html[1]/body[1]/section[3]/div[2]"
+          "xpath": "/html[1]/body[1]/section[3]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__section_3__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Fresh looks, bold moves Step into the scene\u2014outfits that pop, moments that move. From courtside cool to beachside vibes, get inspired by real style in action. Scroll, swoon, and steal the look. See more"
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
         },
         {
           "url": "https://www.wknd-trendsetters.site/latest-trends-young-fashion",
@@ -600,7 +667,52 @@
           "urlHash": "1b9ba84f36ee3a519917302a79dfd970725bae31",
           "uuid": "1b9ba84f-10-d6e8337d5ab20159acc6ca0a1ea736639b279659",
           "xpath": "/html[1]/body[1]/section[4]/div[1]/div[2]",
-          "section": "section-1"
+          "section": "section-1",
+          "differences": [
+            {
+              "element_id": "html__body__section_4__div__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Sneakers for night\u2014yes or no? "
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Rock bold kicks with a sleek dress or sharp pants. Add standout accessories and you\u2019re set for any party. "
+                },
+                {
+                  "change_type": "equal",
+                  "text": "What\u2019s hot for beach days? "
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Go bright, breezy, and bold. Sporty suits, bucket hats, and oversized sunnies bring the fun. "
+                },
+                {
+                  "change_type": "equal",
+                  "text": "Mixing sporty with casual\u2014can I? "
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "Totally! Try a tennis skirt with a graphic tee or toss a hoodie over swimwear for instant cool. "
+                },
+                {
+                  "change_type": "equal",
+                  "text": "How do basics get a glow-up"
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "?"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "? Layer textures, add color pops, or stack on chunky jewelry. Even a cap can flip your vibe."
+                }
+              ],
+              "dissimilarity_score": 0.49
+            }
+          ],
+          "similarity_score": 0.51
         }
       ]
     },
@@ -644,7 +756,20 @@
           "url": "https://www.wknd-trendsetters.site/",
           "urlHash": "1b9ba84f36ee3a519917302a79dfd970725bae31",
           "uuid": "1b9ba84f-04-69306c16bac5563398ce327c71e7f1e9493b6265",
-          "xpath": "/html[1]/body[1]/section[1]/div[1]/div[1]"
+          "xpath": "/html[1]/body[1]/section[1]/div[1]/div[1]",
+          "differences": [
+            {
+              "element_id": "html__body__section__div__div",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Fresh drops for every mood\u2014tennis whites, beach brights, party fits. Your next look starts here. Game on! Sporty vibes meet street style. Sneakers, sets, and all the cool you need. Chill never looked this good. Easy layers, bold extras\u2014fun, effortless, always you. Ready to shine? Statement looks and playful details for nights you\u2019ll never forget. Remix your style. Layer, clash, repeat\u2014make every outfit your own. Hot new labels. Discover the brands everyone\u2019s buzzing about\u2014before they go big. Real people, real style. See how trendsetters own the scene, one outfit at a time. Season\u2019s essentials. Stay ahead with our top picks\u2014what\u2019s trending right now."
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
         }
       ]
     },
@@ -769,7 +894,20 @@
           "urlHash": "1b9ba84f36ee3a519917302a79dfd970725bae31",
           "uuid": "1b9ba84f-08-7c4b411c256121bb1e0e58c581250626ad209dca",
           "xpath": "/html[1]/body[1]/section[3]/div[1]/div[1]",
-          "section": "section-2"
+          "section": "section-2",
+          "differences": [
+            {
+              "element_id": "html__body__section_3__div__div",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Trends Sporty Nightlife Fresh fits, bold moves Game on, style up Party looks, all night"
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
         }
       ]
     },
@@ -969,7 +1107,20 @@
           "urlHash": "1b9ba84f36ee3a519917302a79dfd970725bae31",
           "uuid": "1b9ba84f-07-261c42ba0b32bcb3fb5c83c560b10c2435ad553d",
           "xpath": "/html[1]/body[1]/section[2]/div[1]/div[2]",
-          "section": "section-1"
+          "section": "section-1",
+          "differences": [
+            {
+              "element_id": "html__body__section_2__div__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Chill 3 min read Courtside cool, city strolls Alex mixes tennis classics with street flair\u2014serving up a look that\u2019s game, set, match for any scene. Read Sunny 4 min read Wave-ready, wow-worthy Taylor keeps it breezy in bold colors and shades\u2014proof that beach days are made for standout style. Read Night 2 min read Glow up after hours Jordan turns up the party in neon layers and kicks\u2014because the best nights start with a killer fit. Read Active 5 min read Play hard, dress harder Morgan fuses sporty edge with fresh brands\u2014making every match a style moment to remember. Read"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
         }
       ]
     },
@@ -1015,7 +1166,28 @@
           "urlHash": "9b4d89f80efba6f8dbcb1e3da8ea8ffa8771a959",
           "uuid": "9b4d89f8-03-a27d6a564ded217577666251c62dd15fe27c1901",
           "xpath": "/html[1]/body[1]/section[2]",
-          "section": "section-1"
+          "section": "section-1",
+          "differences": [
+            {
+              "element_id": "html__body__section_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Trends Fresh fits, bold moves See how style meets the street. From tennis courts to city nights, discover what\u2019s trending now. Sport Game, set, match style Serve up looks on and off the court. Sporty vibes, effortless cool. "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "Beach Sunkissed & styled out Catch waves and compliments. Beach days, bright fits, endless fun. "
+                },
+                {
+                  "change_type": "equal",
+                  "text": "Party after dark Nightlife looks that turn heads. Shine bright, dance all night. Weekend escapes Pack light, dress right. Adventure-ready outfits for every getaway. Chill city strolls Urban walks, casual talks. Laid-back layers for every step. Coffee run cool Espresso yourself. Comfy, cute, and always on trend. Creative collabs Meet the makers behind the brands. Fresh drops, unique stories. Style Q&A Your fashion questions, answered. Tips, tricks, and inspo from the pros."
+                }
+              ],
+              "dissimilarity_score": 0.07
+            }
+          ],
+          "similarity_score": 0.9299999999999999
         }
       ]
     },
@@ -1318,6 +1490,86 @@
     }
   ],
   "pages": [
+    {
+      "url": "https://www.wknd-trendsetters.site/",
+      "differences": [
+        {
+          "change_type": "insertion",
+          "text": "Trendsetters, game changers, night owls From courtside cool to beachy vibes, discover the freshest looks and real stories. Get inspired by bold styles for every adventure\u2014day or night. See more Lookbook "
+        },
+        {
+          "change_type": "equal",
+          "text": "Trends made for your lifestyle Fresh drops for every mood\u2014tennis whites, beach brights, party fits. Your next look starts here. Game on! Sporty vibes meet street style. Sneakers, sets, and all the cool you need. Chill never looked this good. Easy layers, bold extras\u2014fun, effortless, always you. Ready to shine? Statement looks and playful details for nights you\u2019ll never forget. Remix your style. Layer, clash, repeat\u2014make every outfit your own. Hot new labels. Discover the brands everyone\u2019s buzzing about\u2014before they go big. Real people, real style. See how trendsetters own the scene, one outfit at a time. Season\u2019s essentials. Stay ahead with our top picks\u2014what\u2019s trending right now. Browse Join Hot right now Style that never sleeps Get inspired by real looks, real stories, and the freshest trends in youth fashion. See how today\u2019s style stars own every moment. Browse Chill 3 min read Courtside cool, city strolls Alex mixes tennis classics with street flair\u2014serving up a look that\u2019s game, set, match for any scene. Read Sunny 4 min read Wave-ready, wow-worthy Taylor keeps it breezy in bold colors and shades\u2014proof that beach days are made for standout style. Read Night 2 min read Glow up after hours Jordan turns up the party in neon layers and kicks\u2014because the best nights start with a killer fit. Read Active 5 min read Play hard, dress harder Morgan fuses sporty edge with fresh brands\u2014making every match a style moment to remember. Read Trends Sporty Nightlife Fresh fits, bold moves Game on, style up Party looks, all night Style Qs, real quick answers Fresh tips for your everyday look. Sneakers for night\u2014yes or no? "
+        },
+        {
+          "change_type": "insertion",
+          "text": "Rock bold kicks with a sleek dress or sharp pants. Add standout accessories and you\u2019re set for any party. "
+        },
+        {
+          "change_type": "equal",
+          "text": "What\u2019s hot for beach days? "
+        },
+        {
+          "change_type": "insertion",
+          "text": "Go bright, breezy, and bold. Sporty suits, bucket hats, and oversized sunnies bring the fun. "
+        },
+        {
+          "change_type": "equal",
+          "text": "Mixing sporty with casual\u2014can I? "
+        },
+        {
+          "change_type": "insertion",
+          "text": "Totally! Try a tennis skirt with a graphic tee or toss a hoodie over swimwear for instant cool. "
+        },
+        {
+          "change_type": "equal",
+          "text": "How do basics get a glow-up? "
+        },
+        {
+          "change_type": "insertion",
+          "text": "Layer textures, add color pops, or stack on chunky jewelry. Even a cap can flip your vibe. "
+        },
+        {
+          "change_type": "equal",
+          "text": "Join the style revolution Get trend alerts, style inspo, and exclusive tips. Fresh looks, fun vibes\u2014straight to your inbox. Don\u2019t miss out! Sign up Connect"
+        }
+      ],
+      "similarity_score": 0.9424486484403526
+    },
+    {
+      "url": "https://www.wknd-trendsetters.site/blog/fashion-blog-post",
+      "differences": [
+        {
+          "change_type": "insertion",
+          "text": "Fresh fits, bold moves, all you Dive into the latest trends\u2014casual, sporty, and always fun. See how real style shines at the beach, on the court, and after dark. Read nowSee trends "
+        },
+        {
+          "change_type": "equal",
+          "text": "Fresh fits, bold moves, all you Step into the scene\u2014where street style meets sport, and every day is a runway. From tennis courts to late-night parties, we spotlight the coolest trends and the stories behind them. Get inspired, get noticed, and make every outfit an adventure. Read "
+        },
+        {
+          "change_type": "deletion",
+          "text": "more See"
+        },
+        {
+          "change_type": "insertion",
+          "text": "moreSee"
+        },
+        {
+          "change_type": "equal",
+          "text": " trends Trends Fresh fits, bold moves See how style meets the street. From tennis courts to city nights, discover what\u2019s trending now. Sport Game, set, match style Serve up looks on and off the court. Sporty vibes, effortless cool"
+        },
+        {
+          "change_type": "deletion",
+          "text": ". Beach Sunkissed & styled out Catch waves and compliments. Beach days, bright fits, endless fun"
+        },
+        {
+          "change_type": "equal",
+          "text": ". Party after dark Nightlife looks that turn heads. Shine bright, dance all night. Weekend escapes Pack light, dress right. Adventure-ready outfits for every getaway. Chill city strolls Urban walks, casual talks. Laid-back layers for every step. Coffee run cool Espresso yourself. Comfy, cute, and always on trend. Creative collabs Meet the makers behind the brands. Fresh drops, unique stories. Style Q&A Your fashion questions, answered. Tips, tricks, and inspo from the pros. Fresh looks, bold moves Step into the scene\u2014outfits that pop, moments that move. From courtside cool to beachside vibes, get inspired by real style in action. Scroll, swoon, and steal the look. See more Fresh looks, bold moves, all you Read more"
+        }
+      ],
+      "similarity_score": 0.9622535548269376
+    },
     {
       "url": "https://www.wknd-trendsetters.site/faq",
       "differences": [
