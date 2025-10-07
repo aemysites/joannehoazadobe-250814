@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -34,12 +35,11 @@
 
 
 .columns.columns30 {
-  background: #f7f8f6; /* off-white page background */
+  background: #f7f8f6;
   padding: 0;
   margin: 0;
 }
 
-/* The true block card: white background, rounded corners, centered, max width */
 .columns.columns30 .block.columns-2-cols {
   background: #fff;
   border-radius: 24px;
@@ -49,7 +49,6 @@
   max-width: 1200px;
 }
 
-/* Row container: flexbox for side-by-side columns, with gap */
 .columns.columns30 .block.columns-2-cols div {
   display: flex;
   flex-direction: row;
@@ -59,7 +58,6 @@
   box-sizing: border-box;
 }
 
-/* Individual image columns: fill space, rounded corners, overflow hidden */
 .columns.columns30 .columns-img-col {
   flex: 1 1 0;
   border-radius: 24px;
@@ -72,7 +70,6 @@
   box-sizing: border-box;
 }
 
-/* Images: fill the container, crop as needed, no border/shadow */
 .columns.columns30 .columns-img-col img,
 .columns.columns30 .columns-img-col picture {
   width: 100%;
@@ -83,7 +80,6 @@
   box-sizing: border-box;
 }
 
-/* Responsive: stack columns vertically on small screens */
 @media (width <= 900px) {
   .columns.columns30 .block.columns-2-cols {
     padding: 16px;
@@ -97,5 +93,138 @@
 
   .columns.columns30 .columns-img-col {
     aspect-ratio: 16/9;
+  }
+}
+
+
+.columns.columns4 {
+  background: #fff;
+  padding: 64px 0;
+}
+
+/* Main layout: two columns side by side */
+.columns.columns4 div {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,260px);
+  align-items: center;
+  gap: 36px;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+/* Responsive: stack columns on small screens */
+@media (width <= 800px) {
+  .columns.columns4 div {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 0 12px;
+    max-width: 100%;
+  }
+}
+
+/* Left column: text block */
+.columns.columns4 div div {
+  min-width: 0;
+}
+
+/* Heading improvements (uses existing font CSS variables) */
+.columns.columns4 div div h2 {
+  font-size: var(--heading-font-size-xl);
+  font-weight: 800;
+  color: #000;
+  margin: 0 0 18px;
+  letter-spacing: 0.01em;
+  line-height: 1.08;
+}
+
+/* Paragraph: limit line length */
+.columns.columns4 div div p {
+  font-size: var(--body-font-size-s);
+  color: #222;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 420px;
+}
+
+/* Right column: stacked buttons */
+.columns.columns4 div div + div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+  min-width: 200px;
+  max-width: 300px;
+  margin: 0;
+}
+
+/* Pill button styling for links inside right column */
+.columns.columns4 div div + div a {
+  display: block;
+  width: 100%;
+  min-width: 170px;
+  max-width: 300px;
+  box-sizing: border-box;
+  padding: 15px 0;
+  text-align: center;
+  border: 1.5px solid #000;
+  border-radius: 999px;
+  background: #fff;
+  color: #000;
+  font-size: var(--body-font-size-m);
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow 0.18s, border-color 0.18s, color 0.18s;
+  line-height: 1.25;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
+
+/* First button: yellow accent outline */
+.columns.columns4 div div + div a:first-child {
+  box-shadow: 0 0 0 3px #EAEA6D;
+  border-color: #000;
+}
+
+/* Button hover/focus effect */
+.columns.columns4 div div + div a:hover,
+.columns.columns4 div div + div a:focus {
+  border-color: var(--link-hover-color);
+  color: var(--link-hover-color);
+  background: #fafafa;
+  text-decoration: none;
+}
+
+/* Responsive buttons: full width when stacked */
+@media (width <= 800px) {
+  .columns.columns4 div div + div {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .columns.columns4 div div + div a {
+    min-width: 0;
+    width: 100%;
+    font-size: var(--body-font-size-s);
+  }
+}
+
+/* Reduce vertical padding for mobile */
+@media (width <= 540px) {
+  .columns.columns4 {
+    padding: 28px 0;
+  }
+
+  .columns.columns4 div {
+    padding: 0 4px;
+  }
+
+  .columns.columns4 div div h2 {
+    font-size: var(--heading-font-size-l);
+    margin-bottom: 12px;
   }
 }
